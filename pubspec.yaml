@@ -1,0 +1,22 @@
+name: log_search_app
+description: A Flutter tool to search logcat lines inside selected zip files.
+version: 1.0.0
+publish_to: "none"
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  file_selector: ^1.0.3
+  archive: ^3.6.1
+  path: ^1.9.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
